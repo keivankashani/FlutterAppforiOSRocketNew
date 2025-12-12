@@ -1,0 +1,31 @@
+{
+  // Dart/Flutter
+  "dart.flutterSdkPath": "C:\\Flutter SDK\flutter",
+  "dart.debugExternalPackageLibraries": true,
+  "dart.debugSdkLibraries": false,
+
+  // Editor
+  "editor.formatOnSave": true,
+  "editor.formatOnType": true,
+  "editor.rulers": [80],
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+
+  // Flutter-specific
+  "[dart]": {
+    "editor.defaultFormatter": "Dart-Code.dart-code",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  },
+
+  // Bracket colorization (built-in)
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+
+  // File associations for iOS
+  "files.associations": {
+    "Podfile": "ruby",
+    "*.plist": "xml"
+  }
+}
